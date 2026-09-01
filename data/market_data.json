@@ -1,0 +1,155 @@
+[
+  {
+    "market_id": "MKT-001",
+    "company_name": "Acme Artificial Intelligence Inc.",
+    "domain": "HTTPS://ACME.AI.EXAMPLE/company",
+    "legal_name": "Acme Artificial Intelligence, Inc.",
+    "funding_total_usd": "$20,000,000",
+    "employee_count": "74",
+    "observed_at": "2026-05-01T00:00:00Z"
+  },
+  {
+    "market_id": "MKT-002",
+    "company_name": "Acme AI",
+    "domain": "www.acme.ai.example.",
+    "legal_name": "Acme Artificial Intelligence, Inc.",
+    "funding_total_usd": "$25,000,000",
+    "employee_count": "85",
+    "observed_at": "2026-08-01T00:00:00Z"
+  },
+  {
+    "market_id": "MKT-003",
+    "company_name": "NorthStar Biosciences",
+    "domain": "https://northstarbio.example/research?ref=provider",
+    "legal_name": "NorthStar Biosciences Ltd.",
+    "funding_total_usd": "45000000",
+    "employee_count": 121,
+    "observed_at": "2026-08-02T12:00:00Z"
+  },
+  {
+    "market_id": "MKT-004",
+    "company_name": "Vector Pay",
+    "domain": "vectorpay.example:443",
+    "legal_name": "VectorPay S.A.",
+    "funding_total_usd": "12,500,000",
+    "employee_count": "63",
+    "observed_at": "2026-08-03T12:00:00Z"
+  },
+  {
+    "market_id": "MKT-005",
+    "company_name": "Quantum Foods LLC",
+    "domain": null,
+    "legal_name": "Quantum Foods LLC",
+    "funding_total_usd": 8000000,
+    "employee_count": 44,
+    "observed_at": "2026-08-04T12:00:00Z"
+  },
+  {
+    "market_id": "MKT-006",
+    "company_name": "Cloudsmith Labs",
+    "domain": "cloudsmithlabs.example.",
+    "legal_name": "CloudSmith Labs Limited",
+    "funding_total_usd": 31000000,
+    "employee_count": 97,
+    "observed_at": "2026-08-05T12:00:00Z"
+  },
+  {
+    "market_id": "MKT-007",
+    "company_name": "Nova Robotics",
+    "domain": "https://user:secret@www.novarobotics.example:443/team",
+    "legal_name": "Nova Robotics Corp.",
+    "funding_total_usd": 15000000,
+    "employee_count": 52,
+    "observed_at": "2026-08-06T12:00:00Z"
+  },
+  {
+    "market_id": "MKT-008",
+    "company_name": "Papertrail Health",
+    "domain": "papertrail.health.example",
+    "legal_name": "Papertrail Health Inc.",
+    "funding_total_usd": 9200000,
+    "employee_count": 38,
+    "observed_at": "2026-08-07T12:00:00Z"
+  },
+  {
+    "market_id": "MKT-009",
+    "company_name": "Atlas Climate Technologies",
+    "domain": "ATLASCLIMATE.EXAMPLE",
+    "legal_name": "Atlas Climate Technologies GmbH",
+    "funding_total_usd": 18000000,
+    "employee_count": 71,
+    "observed_at": "2026-08-08T12:00:00Z"
+  },
+  {
+    "market_id": "MKT-010",
+    "company_name": "HelioGrid",
+    "domain": "heliogrid.example",
+    "legal_name": "Helio Grid Energy S.L.",
+    "funding_total_usd": 6000000,
+    "employee_count": 29,
+    "observed_at": "2026-08-09T12:00:00Z"
+  },
+  {
+    "market_id": "MKT-011",
+    "company_name": "Orbit Legal",
+    "domain": "https://orbit.legal.example/",
+    "legal_name": "Orbit Legal Technologies Inc.",
+    "funding_total_usd": 11000000,
+    "employee_count": 41,
+    "observed_at": "2026-08-10T12:00:00Z"
+  },
+  {
+    "market_id": "MKT-012",
+    "company_name": "Beacon",
+    "domain": "beaconlabs.example",
+    "legal_name": "Beacon Labs Inc.",
+    "funding_total_usd": 7000000,
+    "employee_count": 33,
+    "observed_at": "2026-08-11T12:00:00Z"
+  },
+  {
+    "market_id": "MKT-013",
+    "company_name": "Beacon Capital",
+    "domain": "beaconvc.example",
+    "legal_name": "Beacon Capital Partners Ltd.",
+    "funding_total_usd": 23000000,
+    "employee_count": 56,
+    "observed_at": "2026-08-11T13:00:00Z"
+  },
+  {
+    "market_id": "MKT-014",
+    "company_name": "Broken Record",
+    "domain": "",
+    "legal_name": null,
+    "funding_total_usd": "-$500",
+    "employee_count": "unknown",
+    "observed_at": "yesterday"
+  },
+  {
+    "market_id": "MKT-015",
+    "company_name": "Acme AI",
+    "domain": "acme-alt.example",
+    "legal_name": "Acme Alternate Systems LLC",
+    "funding_total_usd": 3000000,
+    "employee_count": 12,
+    "observed_at": "2026-08-12T12:00:00Z"
+  },
+  {
+    "market_id": "MKT-016",
+    "company_name": "Beacon",
+    "domain": null,
+    "legal_name": null,
+    "funding_total_usd": 1000000,
+    "employee_count": 9,
+    "observed_at": "2026-08-13T12:00:00Z"
+  },
+  {
+    "market_id": "MKT-017",
+    "company_name": "",
+    "domain": null,
+    "legal_name": null,
+    "funding_total_usd": null,
+    "employee_count": null,
+    "observed_at": "2026-08-14T12:00:00Z"
+  }
+]

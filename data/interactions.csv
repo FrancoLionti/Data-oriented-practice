@@ -1,0 +1,20 @@
+interaction_id,company_ref,company_name,email_domain,occurred_at,type,owner_email,notes
+INT-001,CRM-001,Acme AI,acme.ai.example,2026-08-12T14:00:00Z,meeting,analyst@fund.example,Intro call
+INT-002,,ACME Artificial Intelligence,www.acme.ai.example.,2026-08-19T14:30:00Z,email,partner@fund.example,Founder follow-up
+INT-003,CRM-002,Northstar Bio,northstarbio.example,2026-08-15T09:00:00Z,meeting,analyst@fund.example,Technical diligence
+INT-004,CRM-003,Vector Pay,vectorpay.example,2026-08-16T10:00:00Z,email,partner@fund.example,Requested metrics
+INT-004,CRM-003,VectorPay,vectorpay.example,2026-08-16T10:00:00Z,email,partner@fund.example,Duplicate export row
+INT-005,,Helio Grid,heliogrid.example,2026-08-17T11:45:00Z,meeting,analyst@fund.example,First conversation
+INT-006,,Beacon,,2026-08-18T12:00:00Z,note,analyst@fund.example,Ambiguous company name
+INT-007,CRM-009,AcmeAI Inc.,,2026-08-20T08:00:00-03:00,note,partner@fund.example,CRM duplicate reference
+INT-008,CRM-004,Quantum Foods,quantumfoods.example,not-a-date,email,analyst@fund.example,Malformed timestamp
+INT-009,CRM-999,Unknown Startup,gmail.com,2026-08-20T11:00:00Z,email,analyst@fund.example,No safe company match
+INT-010,CRM-011,Orbit Legal,orbit.legal.example,2026-08-20T12:00:00Z,meeting,partner@fund.example,Product demonstration
+INT-011,CRM-999,VectorPay,vectorpay.example,2026-08-21T09:00:00Z,note,analyst@fund.example,Invalid CRM ref but usable domain
+INT-012,,Acme AI,acme-alt.example,2026-08-21T10:00:00Z,meeting,analyst@fund.example,Must not merge with primary Acme domain
+INT-013,CRM-007,Papertrail Health,papertrail.health.example,2026-08-22T10:00:00+00:00,meeting,partner@fund.example,Security review
+INT-014,,Atlas Climate,https://atlasclimate.example/contact,2026-08-22T13:15:00Z,email,analyst@fund.example,Updated headcount request
+INT-015,CRM-012,Beacon,beaconvc.example,2026-08-23T09:30:00Z,note,partner@fund.example,Conflicting ref and domain
+INT-016,,CloudSmith Labs,cloudsmithlabs.example:443,2026-08-24T16:00:00Z,meeting,analyst@fund.example,Architecture call
+INT-017,,Nova Robotics,novarobotics.example,2026-08-25T16:30:00Z,email,analyst@fund.example,Follow-up
+INT-018,,No Name Company,,2026-08-26T10:00:00Z,note,analyst@fund.example,Unmatched name

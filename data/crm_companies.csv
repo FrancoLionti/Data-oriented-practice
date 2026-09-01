@@ -1,0 +1,16 @@
+crm_id,name,domain,website,founded_year,hq_country,last_updated,status
+CRM-001,Acme AI,acme.ai.example,https://www.acme.ai.example/,2019,US,2026-08-10T09:00:00Z,active
+CRM-002,Northstar Bio,,https://northstarbio.example/about,2018,US,2026-08-12T10:30:00Z,active
+CRM-003,VectorPay,WWW.VECTORPAY.EXAMPLE.,https://vectorpay.example/pricing,2021,AR,2026-08-13T13:00:00Z,active
+CRM-004,Quantum Foods,quantumfoods.example,,2017,BR,2026-08-14T18:00:00Z,active
+CRM-005,CloudSmith Labs,cloudsmithlabs.example:443,https://www.cloudsmithlabs.example,2020,GB,2026-08-15T11:00:00Z,active
+CRM-006,Nova Robotics,https://novarobotics.example,,2022,US,2026-08-16T12:00:00Z,active
+CRM-007,Papertrail Health,papertrail.health.example,https://papertrail.health.example/,2016,CA,2026-08-16T15:00:00Z,active
+CRM-008,Atlas Climate,atlasclimate.example,https://atlasclimate.example,2019,DE,2026-08-17T08:00:00Z,active
+CRM-009,AcmeAI Inc.,https://www.acme.ai.example?utm_source=crm,,2019,US,2026-08-18T10:00:00Z,prospect
+CRM-010,Helio Grid,,,2023,ES,2026-08-18T10:15:00Z,active
+CRM-011,Orbit Legal,orbit.legal.example,https://orbit.legal.example,2020,US,2026-08-18T11:00:00Z,active
+CRM-012,Beacon,beaconlabs.example,https://beaconlabs.example,2021,US,2026-08-18T11:30:00Z,active
+CRM-013,Beacon,beaconvc.example,https://beaconvc.example,2015,GB,2026-08-18T12:00:00Z,active
+CRM-014,Broken Record,not a domain,,3026,XX,not-a-timestamp,unknown
+CRM-015,Quantum Foods,https://www.quantumfoods.example/products,,2017,BR,2026-08-19T08:00:00Z,active
