@@ -2,9 +2,15 @@ from __future__ import annotations
 
 import argparse
 from collections.abc import Sequence
+import sys
+
+from data_challenge.ingestion import InputFormatError
+from data_challenge.pipeline import PipelineError, build_files
 
 
 def build_parser() -> argparse.ArgumentParser:
+    """Create the command-line parser for dataset build operations."""
+
     parser = argparse.ArgumentParser(
         prog="data-challenge",
         description="Build a canonical company dataset from inconsistent sources.",
@@ -22,12 +28,23 @@ def build_parser() -> argparse.ArgumentParser:
 
 
 def main(argv: Sequence[str] | None = None) -> int:
+    """Run the CLI and return a process status suitable for ``SystemExit``."""
+
     parser = build_parser()
     args = parser.parse_args(argv)
 
     if args.command == "build":
-        # TODO: Replace this placeholder with your implementation.
-        parser.error("The build pipeline has not been implemented yet.")
+        try:
+            build_files(
+                crm_path=args.crm,
+                market_path=args.market,
+                interactions_path=args.interactions,
+                output_path=args.output,
+                rejects_path=args.rejects,
+            )
+        except (InputFormatError, PipelineError, OSError) as error:
+            print(f"build failed: {error}", file=sys.stderr)
+            return 1
 
     return 0
 
